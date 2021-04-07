@@ -4,7 +4,9 @@ import social from './images/socialMedia.png';
 import search from './images/searchCircle.png';
 import searchGlass from './images/carbon_search.png';
 import connect from './images/connectW.png';
-import rectangle from './images/Rectangle.png';
+import butterfly from './images/butterfly.png';
+import world from './images/world.png';
+import filler from './images/filler.png';
 import './App.css';
 
 function App() {
@@ -30,10 +32,15 @@ function App() {
 
     <div className='mainDiv'>
 
-   
-    <div className='rectangle'></div>
+    <div className='rectangle'>
+    <img className='butterfly' src={butterfly} alt='butterfly' />
+    <img className='filler' src={filler} alt='filler' />
+    <img className='world' src={world} alt='world' />
+    </div>
     <img className='logo' src={mpLogo} alt='mp logo'/>
     <img className='logoShape' src={mpLogoShape} alt='mp logo shape'/>
+
+
     </div>
 
 
