@@ -1,5 +1,9 @@
 .App {
-  background: linear-gradient(90deg, hsla(316, 100%, 50%, 1) 33%, hsla(47, 100%, 50%, 1) 88%);
+  background: linear-gradient(
+    90deg,
+    hsla(316, 100%, 50%, 1) 33%,
+    hsla(47, 100%, 50%, 1) 88%
+  );
   height: 639px;
 }
 
@@ -11,14 +15,41 @@ nav {
 nav ul {
   display: flex;
   justify-content: space-between;
-  text-decoration: none;
+  padding: 0 400px;
 }
 
-nav ul li{
- list-style: none;
- font-size: 12px;
+nav ul li {
+  list-style: none;
+  font-size: 10px;
+  padding: 5px;
 }
 
-nav ul li a .social{
-width: 100px;
+.service {
+padding-right: 30px;
+}
+
+.events {
+  padding-right: 30px;
+}
+
+.learn {
+  padding-right: 30px;
+}
+
+
+nav ul li a .social {
+  width: 100px;
+}
+.searchCircle {
+  width: 40px;
+  position: absolute;
+  top: 12px;
+  right: 65px;
+}
+
+.search {
+  position: absolute;
+  width: 20px;
+  right: 73px;
+  top: 15px;
 }
