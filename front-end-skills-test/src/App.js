@@ -1,8 +1,10 @@
 import mpLogo from './images/mp_logo-removebg-preview.png'
+import mpLogoShape from './images/logoShape.png'
 import social from './images/socialMedia.png';
 import search from './images/searchCircle.png';
 import searchGlass from './images/carbon_search.png';
 import connect from './images/connectW.png';
+import rectangle from './images/Rectangle.png';
 import './App.css';
 
 function App() {
@@ -24,8 +26,20 @@ function App() {
       <a href='#'><img className='search' src={searchGlass} alt='search'/></a>
       <a href='#'><img className='social' src={social} alt='social media'/></a>
     </nav>
-    <img src={mpLogo} alt='mp logo'/>
+   
+
+    <div className='mainDiv'>
+
+   
+    <div className='rectangle'></div>
+    <img className='logo' src={mpLogo} alt='mp logo'/>
+    <img className='logoShape' src={mpLogoShape} alt='mp logo shape'/>
     </div>
+
+
+    </div>
+
+
   )
 }
 
