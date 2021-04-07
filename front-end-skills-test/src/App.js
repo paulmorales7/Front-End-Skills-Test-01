@@ -1,4 +1,5 @@
 import mpLogo from './images/mp_logo-removebg-preview.png'
+import social from './images/socialMedia.png';
 import './App.css';
 
 function App() {
@@ -7,10 +8,7 @@ function App() {
 
     <nav>
       <ul>
-        <li> tw</li>
-        <li> fb</li>
-        <li> in</li>
-        <li> ig</li>
+        <li><a href='#'><img className='social' src={social} alt='social media'/></a></li>
         <li> Connect Wallet</li>
         <li> Service</li>
         <li> Events</li>
