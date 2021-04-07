@@ -1,0 +1,14 @@
+.App {
+  background: linear-gradient(90deg, hsla(316, 100%, 50%, 1) 33%, hsla(47, 100%, 50%, 1) 88%);
+  height: 639px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+nav ul li{
+ list-style: none;
+}
