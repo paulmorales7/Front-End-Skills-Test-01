@@ -36,9 +36,11 @@ padding-right: 30px;
   padding-right: 30px;
 }
 
-
-nav ul li a .social {
+.social {
   width: 100px;
+  position: absolute;
+  top: 22px;
+  left: 100px;
 }
 .searchCircle {
   width: 40px;
@@ -52,4 +54,12 @@ nav ul li a .social {
   width: 20px;
   right: 73px;
   top: 15px;
+}
+
+.wallet {
+  position: absolute;
+  top: 15px;
+  left: 270px;
+  padding: 3px 5px 5px 5px;
+  width: 70px;
 }
