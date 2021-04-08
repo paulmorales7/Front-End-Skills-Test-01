@@ -1,0 +1,77 @@
+/* nav */
+nav {
+    background-color: white;
+    height: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 400px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  .service {
+  padding-left: 420px;
+  }
+  
+  .events {
+    padding-left: 40px;
+  }
+  
+  .learn {
+    padding-left: 30px;
+  }
+  
+  .join {
+    padding-left: 30px;
+  }
+  
+  .social {
+    width: 150px;
+    position: absolute;
+    top: 25px;
+    left: 220px;
+  }
+  .searchCircle {
+    width: 40px;
+    position: absolute;
+    top: 16px;
+    right: 110px;
+  }
+  
+  .search {
+    position: absolute;
+    width: 20px;
+    right: 119px;
+    top: 20px;
+  }
+  
+  .wallet {
+    position: absolute;
+    top: 15px;
+    left: 520px;
+    padding: 3px 5px 5px 5px;
+    width: 120px;
+  }
+  
+  .logoShape {
+    width: 90px;
+    position: absolute;
+    bottom: 525px;
+    left: 25px;
+  
+  }
+  
+  .logo{
+    position: absolute;
+    bottom: 530px;
+    left: 23px;
+    width: 120px;
+    z-index: 1;
+  }
