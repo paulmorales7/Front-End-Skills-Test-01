@@ -1,0 +1,18 @@
+.title {
+  position: absolute;
+  bottom: 310px;
+  left: 80px;
+  color: #3c3b88;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.card {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: 210px;
+    left: 100px;
+    z-index: 1;
+}
