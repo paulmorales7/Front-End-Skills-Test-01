@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "image": "../../images/earnButton.png",
         "earn": "Earn $30",
        "title": "Intro to BlockChain",
         "para": "blockchain, cryptocurrency fundamental",

@@ -1,7 +1,6 @@
 import React from 'react';
 import './courses.css';
 
-// import border from '../../images/border.png';
 
 function courses(props) {
 
@@ -12,7 +11,7 @@ return (
   <div className='card'>
 
 <div className='content'>
-<p className='earn'> <ul> <li>{props.earn}</li></ul></p>
+<div className='image'></div>
 <h2 className='intro'>{props.title}</h2>
 <p className='para'>{props.para}</p>
 <button className='button'>{props.learn}</button>

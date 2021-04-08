@@ -21,9 +21,9 @@ state = {
 
 <Wrapper>
   {this.state.course.map(cor => {
-    console.log(cor.image)
-    return(
     
+    return(
+     
     <Courses 
 key={cor.id}
 earn={cor.earn}
