@@ -12,12 +12,12 @@ return (
   <div className='card'>
 
 <div className='content'>
-<p>{props.earn}</p>
-<h2>{props.title}</h2>
-<p>{props.para}</p>
-<button>{props.learn}</button>
-<h3>{props.modules}</h3>
-<p>{props.completed}</p>
+<p className='earn'> <ul> <li>{props.earn}</li></ul></p>
+<h2 className='intro'>{props.title}</h2>
+<p className='para'>{props.para}</p>
+<button className='button'>{props.learn}</button>
+<h3 className='modules'>{props.modules}</h3>
+<p className='completed'>{props.completed}</p>
 </div>
 
   </div>
