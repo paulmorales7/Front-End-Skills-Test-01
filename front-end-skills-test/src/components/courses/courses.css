@@ -1,18 +1,30 @@
+.entire {
+    margin: 20px;
+}
+
 .title {
   position: absolute;
-  bottom: 310px;
+  bottom: 300px;
   left: 80px;
   color: #3c3b88;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 26px;
 }
 
 .card {
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    position: absolute;
-    bottom: 210px;
-    left: 100px;
-    z-index: 1;
+    background-image: url('../../images/border.png');
+    background-size: 150px;
+    background-color: lightcyan;
+    width: 150px;
+    position: relative;
+    z-index: 5;
+    margin-top: 265px;
+    /* left: 130px; */
+    padding: 0px 0px 25px 0px;
+}
+
+.content {
+    font-size: 8px;
+    color: black;
+    position: relative;
+   z-index: 3;
 }
