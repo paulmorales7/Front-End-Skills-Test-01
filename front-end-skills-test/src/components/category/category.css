@@ -1,0 +1,58 @@
+.category {
+  position: absolute;
+  bottom: -170px;
+  left: 110px;
+  color: #3c3b88;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.engineering {
+  background-image: url("../../images/engineering.png");
+  background-size: 150px;
+  width: 150px;
+  height: 158px;
+  position: absolute;
+  bottom: -320px;
+  left: 220px;
+}
+
+.science {
+  background-image: url("../../images/science.png");
+  background-size: 150px;
+  width: 150px;
+  height: 158px;
+  position: absolute;
+  bottom: -320px;
+  left: 420px;
+}
+
+.innovation {
+  background-image: url("../../images/engineering.png");
+  background-size: 150px;
+  width: 150px;
+  height: 157px;
+  position: absolute;
+  bottom: -320px;
+  left: 620px;
+}
+
+.programming {
+  background-image: url("../../images/programming1.png");
+  background-size: 150px;
+  width: 150px;
+  height: 156px;
+  position: absolute;
+  bottom: -320px;
+  left: 820px;
+}
+
+.programming2 {
+  background-image: url("../../images/programming2.png");
+  background-size: 120px;
+  width: 120px;
+  height: 77px;
+  position: absolute;
+  bottom: -300px;
+  left: 835px;
+}

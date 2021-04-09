@@ -1,6 +1,7 @@
 import Courses from './components/courses/courses';
 import Title from './components/title/title';
 import Nav from './components/nav/nav';
+import Category from './components/category/category';
 import Wrapper from './components/wrapper/wrapper';
 import course from './courses.json';
 import './App.css';
@@ -17,14 +18,15 @@ state = {
   return (
     <div className='App'> 
    <Nav />
+ 
   <Title />
-
+  
 <Wrapper>
   {this.state.course.map(cor => {
     
     return(
      
-    <Courses 
+    <Courses
 key={cor.id}
 earn={cor.earn}
 title={cor.title}
@@ -33,11 +35,9 @@ learn={cor.learn}
 modules={cor.modules}
 completed={cor.completed}
 />
-
-
-
     )
   })}
+ < Category />
 </Wrapper>
 
 </div>

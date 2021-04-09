@@ -1,4 +1,5 @@
 import React from 'react';
+import Category from '../category/category';
 import './courses.css';
 
 
@@ -36,15 +37,6 @@ return (
 </div>
 
   </div>
-
-  <h1 className='category'>By Category</h1>
-
-  <div className='engineering'></div>
-  <div className='science'></div>
-  <div className='innovation'></div>
-  <div className='programming'></div>
-
-
 
 
 </div>
