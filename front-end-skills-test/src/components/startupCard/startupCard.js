@@ -3,7 +3,7 @@ import React from 'react';
 
 function startUp () {
     return (
-<div>sart</div>
+        <div>sart</div>
     )
 }
 
