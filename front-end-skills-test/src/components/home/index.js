@@ -3,6 +3,7 @@ import Wrapper from '../wrapper/wrapper';
 import Courses from '../courses/courses'
 import Category from '../category/category'
 import course from '../../courses.json';
+import Title from '../../components/title/title';
 
 function Home () {
     const [courses, setCourses] = useState()
@@ -10,7 +11,9 @@ function Home () {
         setCourses(course)
     })
     return (
+       
         <Wrapper>
+             <Title />
             {courses&&courses.map(cor => {                
                 return(                
                     <Courses

@@ -1,9 +1,13 @@
 import React from 'react';
-// import './startup.json';
+import '../../startup.json';
+import './startupCard.css';
+import Header from '../header/header';
 
 function startUp () {
     return (
-        <div>sart</div>
+        <div>
+            <Header />
+        </div>
     )
 }
 
