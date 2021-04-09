@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Route, Link } from 'react-router-dom';
 import social from '../../images/socialMedia.png';
 import search from '../../images/searchCircle.png';
 import searchGlass from '../../images/carbon_search.png';
@@ -12,7 +12,7 @@ function nav() {
 <nav>
       
       <ul>
-        <li className='service'> Service</li>
+      <a href="/startups"><li className='service'>Start ups</li></a>
         <li className='events'> Events</li>
         <li className='learn'> Learn</li>
         <li className='join'> Join</li>

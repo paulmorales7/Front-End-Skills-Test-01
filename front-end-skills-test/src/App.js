@@ -3,22 +3,25 @@ import Title from './components/title/title';
 import Nav from './components/nav/nav';
 import Category from './components/category/category';
 import Wrapper from './components/wrapper/wrapper';
+import StartUpCard from './components/startupCard/startupCard';
 import course from './courses.json';
+import startup from './startup.json';
 import './App.css';
 import React, { Component } from 'react';
+import { BrowserRouter as Router,Route, Switch } from 'react-router-dom';
 
 class App extends Component {
 
 state = {
-  course
+  course, startup
 };
 
   render(){
     
   return (
+    <Router>
     <div className='App'> 
    <Nav />
- 
   <Title />
   
 <Wrapper>
@@ -38,10 +41,15 @@ completed={cor.completed}
     )
   })}
  < Category />
+
 </Wrapper>
+<Switch>
+  <Route path='/startups' exact component={StartUpCard} />
+</Switch>
+
 
 </div>
-
+</Router>
   )
 }}
 

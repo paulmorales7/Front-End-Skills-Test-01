@@ -1,12 +1,14 @@
 import React from 'react';
-import Category from '../category/category';
 import './courses.css';
+import Nav from '../nav/nav';
+import Title from '../title/title';
 
 
 function courses(props) {
 
 return (
     <div className='entire'>
+    
     <h1 className='title'>My Courses</h1>
   
   <div className='card'>

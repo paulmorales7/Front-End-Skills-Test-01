@@ -1,0 +1,38 @@
+[
+    {
+        "ProjectName": "Pro Vault",
+        "ProjectDescription": "changing the way you gold forever",
+        "CurrentFunding": "$83,000",
+        "FundingGoal": "100,000",
+        "GiveLink": "Give",
+        "LearnLink": "Learn",
+        "funded": "83% Funded"
+    },
+
+    {
+        "ProjectName": "mangoswap",
+        "CurrentFunding": "$83,000",
+        "FundingGoal": "100,000",
+        "GiveLink": "Give",
+        "LearnLink": "Learn",
+        "funded": "83% Funded"
+    },
+
+    {
+        "ProjectName": "Minority Think Tank",
+        "CurrentFunding": "$83,000",
+        "FundingGoal": "100,000",
+        "GiveLink": "Give",
+        "LearnLink": "Learn",
+        "funded": "83% Funded"
+    },
+
+    {
+        "ProjectName": "Minority Venture Capital",
+        "CurrentFunding": "$83,000",
+        "FundingGoal": "100,000",
+        "GiveLink": "Give",
+        "LearnLink": "Learn",
+        "funded": "83% Funded"
+    }
+]
