@@ -16,10 +16,35 @@ return (
 <p className='para'>{props.para}</p>
 <button className='button'>{props.learn}</button>
 <h3 className='modules'>{props.modules}</h3>
+<div className='loading'></div>
 <p className='completed'>{props.completed}</p>
 </div>
 
   </div>
+
+  <h1 className='featured'>Featured Courses</h1>
+  <div className='card2'>
+
+<div className='content'>
+<div className='image'></div>
+<h2 className='intro'>{props.title}</h2>
+<p className='para'>{props.para}</p>
+<button className='button'>{props.learn}</button>
+<h3 className='modules'>{props.modules}</h3>
+<div className='loading'></div>
+<p className='completed'>{props.completed}</p>
+</div>
+
+  </div>
+
+  <h1 className='category'>By Category</h1>
+
+  <div className='engineering'></div>
+  <div className='science'></div>
+  <div className='innovation'></div>
+  <div className='programming'></div>
+
+
 
 
 </div>
