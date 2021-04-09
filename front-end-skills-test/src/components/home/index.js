@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-// import './startup.json';
 import Wrapper from '../wrapper/wrapper';
 import Courses from '../courses/courses'
 import Category from '../category/category'

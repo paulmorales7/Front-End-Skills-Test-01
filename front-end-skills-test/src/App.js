@@ -13,10 +13,6 @@ import { BrowserRouter as Router,Route, Switch } from 'react-router-dom';
 
 class App extends Component {
 
-// state = {
-//   course, startup
-// };
-
   render(){
     
   return (

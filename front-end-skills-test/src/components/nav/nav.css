@@ -15,17 +15,25 @@ nav {
     font-size: 14px;
     padding: 5px;
   }
+
+  nav ul a {
+    text-decoration: none;
+    color: black;
+  }
   
   .service {
   padding-left: 390px;
+  width: 56px;
   }
   
   .events {
-    padding-left: 40px;
+    padding-left: 30px;
+    cursor: pointer;
   }
   
   .learn {
     padding-left: 30px;
+    cursor: pointer;
   }
   
   .join {
@@ -42,13 +50,13 @@ nav {
     width: 40px;
     position: absolute;
     top: 16px;
-    right: 150px;
+    right: 140px;
   }
   
   .search {
     position: absolute;
     width: 20px;
-    right: 159px;
+    right: 149px;
     top: 22px;
   }
   

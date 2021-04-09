@@ -1,8 +1,5 @@
 import React from 'react';
 import './courses.css';
-import Nav from '../nav/nav';
-import Title from '../title/title';
-
 
 function courses(props) {
 
