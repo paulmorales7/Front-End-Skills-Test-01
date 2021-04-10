@@ -14,12 +14,12 @@ function startUp (props) {
 
                 <div className='contentSt'>
                     <div className={props.ProjectName}></div>
-                    <p>{props.ProjectDescription}</p>
+                    <p className='oroInfo'>{props.ProjectDescription}</p>
                     <button className='giveBtn'>{props.GiveLink}</button>
                     <button className='learnBtn'>{props.LearnLink}</button>
                     <h3 className='currentFunding'>{props.CurrentFunding}</h3>
                     <div className='loading'></div>
-                    <p className='completed'>{props.completed}</p>
+                    <p className='funded'>{props.funded}</p>
                 </div>
 
                 

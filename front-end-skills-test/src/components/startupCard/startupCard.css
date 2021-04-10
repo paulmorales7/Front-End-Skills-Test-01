@@ -33,24 +33,33 @@
   height: 30px;
   position: relative;
   left: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+}
+
+.oroInfo {
+    position: relative;
+    top: -10px;
+    left: 17px;
+    text-align: left;
+    width: 110px;
+    font-size: 9px;
 }
 
 .mangoswap {
   background-image: url("../../images/mangoswap.png");
-  background-size: 80px;
-  width: 80px;
-  height: 64px;
+  background-size: 65px;
+  width: 65px;
+  height: 52px;
   position: relative;
   left: 37px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .MinorityThinkTank {
   background-image: url("../../images/MTTLogo.png");
-  background-size: 60px;
-  width: 60px;
-  height: 61.5px;
+  background-size: 50px;
+  width: 50px;
+  height: 51.5px;
   position: relative;
   left: 45px;
   margin-bottom: 20px;
@@ -58,27 +67,66 @@
 
 .MinorityVentureCapital {
   background-image: url("../../images/MVC.png");
-  background-size: 100px;
-  width: 100px;
-  height: 57px;
+  background-size: 90px;
+  width: 90px;
+  height: 50px;
   position: relative;
-  left: 25px;
-  margin-bottom: 30px;
+  left: 30px;
+  top: 2px;
+  margin-bottom: 22px;
 }
 
 .giveBtn {
     position: relative;
    top: -10px;
+   right: 3px;
+   background: linear-gradient(
+    90deg,
+    hsla(316, 100%, 50%, 1) 33%,
+    hsla(47, 100%, 50%, 1) 88%
+  );
+  border: none;
+  border-radius: 20px;
+  color: white;
+ width: 60px;
+ height: 25px;
+}
+
+.learnBtn {
+    position: relative;
+    top: -10px;
+    background: linear-gradient(161.32deg, #ff00b8 3.86%, #151371 98.64%);
+   border: none;
+   border-radius: 20px;
+   color: white;
+  width: 60px;
+  height: 25px;
 }
 
 .loading {
   background-image: url("../../images/loading.png");
-  background-size: 106px;
-  width: 106px;
+  background-size: 108px;
+  width: 108px;
   height: 6px;
   position: absolute;
-  bottom: 10px;
+  bottom: 25px;
   right: 20px;
+}
+
+.currentFunding {
+    position: relative;
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: right;
+    top: -10px;
+    right: 20px;
+}
+
+.funded {
+    position: relative;
+    text-align: right;
+    right: 20px;
+    top: -14px;
 }
 
 
