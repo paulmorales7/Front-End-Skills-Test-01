@@ -17,8 +17,8 @@ function header() {
         <img className='filler' src={filler} alt='filler' />
         <img className='smallFiller' src={smallFiller} alt='small-filler' />
         <img className='world' src={world} alt='world' />
-        <p className='rectP'>Invest directly <br/> into minority innovations.</p>
-        <img className='group' src={group} alt='group' />
+        <p className='rectPSt'>Invest directly <br/> into minority innovations.</p>
+        <img className='groupSt' src={group} alt='group' />
         </div>
         <img className='logo' src={mpLogo} alt='mp logo'/>
         <img className='logoShape' src={mpLogoShape} alt='mp logo shape'/>

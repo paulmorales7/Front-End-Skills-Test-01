@@ -1,0 +1,84 @@
+.titleSt {
+  position: absolute;
+  bottom: 288px;
+  left: 110px;
+  color: #3c3b88;
+  font-size: 26px;
+}
+
+.cardSt {
+  background-image: url("../../images/border.png");
+  background-size: 150px;
+  width: 150px;
+  height: 161.9px;
+  position: relative;
+  z-index: 5;
+  margin-top: 265px;
+  right: 5px;
+}
+
+.contentSt {
+  font-size: 8px;
+  color: black;
+  position: relative;
+  z-index: 3;
+  top: 10px;
+  text-align: center;
+}
+
+.OroVault {
+  background-image: url("../../images/orovault.png");
+  background-size: 120px;
+  width: 120px;
+  height: 30px;
+  position: relative;
+  left: 15px;
+  margin-bottom: 30px;
+}
+
+.mangoswap {
+  background-image: url("../../images/mangoswap.png");
+  background-size: 80px;
+  width: 80px;
+  height: 64px;
+  position: relative;
+  left: 37px;
+  margin-bottom: 10px;
+}
+
+.MinorityThinkTank {
+  background-image: url("../../images/MTTLogo.png");
+  background-size: 60px;
+  width: 60px;
+  height: 61.5px;
+  position: relative;
+  left: 45px;
+  margin-bottom: 20px;
+}
+
+.MinorityVentureCapital {
+  background-image: url("../../images/MVC.png");
+  background-size: 100px;
+  width: 100px;
+  height: 57px;
+  position: relative;
+  left: 25px;
+  margin-bottom: 30px;
+}
+
+.giveBtn {
+    position: relative;
+   top: -10px;
+}
+
+.loading {
+  background-image: url("../../images/loading.png");
+  background-size: 106px;
+  width: 106px;
+  height: 6px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+

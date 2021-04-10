@@ -49,7 +49,7 @@
     top: 170px;
   }
   
-  .rectP {
+  .rectPSt {
     color: white;
     font-weight: bold;
    position: absolute;
@@ -67,7 +67,7 @@
   top: 128px;
   }
   
-  .group {
+  .groupSt {
     width: 250px;
     position: absolute;
     left: 810px;

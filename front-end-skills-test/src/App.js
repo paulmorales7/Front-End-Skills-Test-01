@@ -1,5 +1,6 @@
 import Nav from './components/nav/nav';
 import Home from './components/home/index';
+import Page from './components/startupPage/page';
 import StartUpCard from './components/startupCard/startupCard';
 import './App.css';
 import React, { Component } from 'react';
@@ -18,7 +19,7 @@ class App extends Component {
 
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path='/startups' exact component={StartUpCard} />
+        <Route path='/startups' exact component={Page} />
       </Switch>
     </div>
 </Router>
