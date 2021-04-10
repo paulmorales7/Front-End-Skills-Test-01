@@ -1,7 +1,7 @@
 /* nav */
 nav {
   background-color: white;
-  height: 5%;
+  height: 6%;
 }
 
 nav ul {
@@ -13,8 +13,8 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  font-size: 14px;
-  padding: 5px;
+  font-size: 18px;
+  padding: 20px;
 }
 
 nav ul a {
@@ -23,7 +23,7 @@ nav ul a {
 }
 
 .service {
-  width: 56px;
+  width: 72px;
 }
 
 .events {
@@ -41,24 +41,24 @@ nav ul a {
 }
 
 .social {
-  width: 150px;
+  width: 220px;
   position: absolute;
   top: 4%;
   left: 22%;
 }
 
 .searchCircle {
-  width: 40px;
+  width: 60px;
   position: absolute;
-  top: 2.5%;
+  top: 2%;
   right: 11%;
 }
 
 .search {
   position: absolute;
-  width: 20px;
-  right: 11.5%;
-  top: 3.5%;
+  width: 27px;
+  right: 11.7%;
+  top: 3%;
 }
 
 .wallet {
@@ -66,20 +66,20 @@ nav ul a {
   top: 2%;
   left: 43%;
   padding: 5px;
-  width: 120px;
+  width: 170px;
 }
 
 .logoShape {
-  width: 90px;
+  width: 120px;
   position: absolute;
-  top: -6%;
-  left: 3%;
+  top: -10%;
+  left: 5%;
 }
 
 .logo {
   position: absolute;
-  top: -5%;
-  left: 2.5%;
-  width: 120px;
+  top: -9%;
+  left: 4.5%;
+  width: 160px;
   z-index: 2;
 }
