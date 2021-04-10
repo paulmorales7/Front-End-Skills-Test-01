@@ -10,15 +10,15 @@ return (
   
   <div className='card'>
 
-<div className='content'>
-<div className='image'></div>
-<h2 className='intro'>{props.title}</h2>
-<p className='para'>{props.para}</p>
-<button className='button'>{props.learn}</button>
-<h3 className='modules'>{props.modules}</h3>
-<div className='loading'></div>
-<p className='completed'>{props.completed}</p>
-</div>
+    <div className='content'>
+        <div className='image'></div>
+        <h2 className='intro'>{props.title}</h2>
+        <p className='para'>{props.para}</p>
+        <button className='button'>{props.learn}</button>
+        <h3 className='modules'>{props.modules}</h3>
+        <div className='loading'></div>
+        <p className='completed'>{props.completed}</p>
+    </div>
 
   </div>
 

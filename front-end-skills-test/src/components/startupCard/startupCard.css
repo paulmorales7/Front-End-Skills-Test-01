@@ -12,16 +12,16 @@
   width: 150px;
   height: 161.9px;
   position: relative;
-  z-index: 5;
-  margin-top: 265px;
-  right: 5px;
+  z-index: 1;
+  margin-top: 280px;
+  right: 25px;
+  margin-left: 30px;
 }
 
 .contentSt {
   font-size: 8px;
   color: black;
   position: relative;
-  z-index: 3;
   top: 10px;
   text-align: center;
 }
@@ -103,13 +103,13 @@
   height: 25px;
 }
 
-.loading {
+.loading2 {
   background-image: url("../../images/loading.png");
   background-size: 108px;
   width: 108px;
   height: 6px;
   position: absolute;
-  bottom: 25px;
+  bottom: 21px;
   right: 20px;
 }
 
@@ -118,7 +118,7 @@
     font-size: 10px;
     font-weight: lighter;
     text-align: right;
-    top: -10px;
+    top: -7px;
     right: 20px;
 }
 
@@ -126,7 +126,105 @@
     position: relative;
     text-align: right;
     right: 20px;
-    top: -14px;
+    top: -8px;
+}
+
+
+.feaSt {
+    position: absolute;
+    bottom: 58px;
+    left: 110px;
+    color: #3c3b88;
+    font-size: 26px;
+}
+
+.cardUp {
+    background-image: url("../../images/border.png");
+  background-size: 150px;
+  width: 150px;
+  height: 161.9px;
+  position: relative;
+  z-index: 5;
+  margin-top: 80px;
+  right: 25px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.contentUp {
+    font-size: 8px;
+    color: black;
+    position: relative;
+    z-index: 3;
+    top: 10px;
+    text-align: center;
+
+  }
+
+  .oroInfo1 {
+    position: relative;
+    top: -10px;
+    left: 17px;
+    text-align: left;
+    width: 110px;
+    font-size: 9px;
+}
+
+ .buttonAdvise{
+    position: absolute;
+   width: 250px;
+   height: 65px;
+   left: 200px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    hsla(316, 100%, 50%, 1) 33%,
+    hsla(47, 100%, 50%, 1) 88%
+  );
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.buttonJoin{
+    position: absolute;
+   width: 250px;
+   height: 65px;
+   left: 500px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    hsla(316, 100%, 50%, 1) 33%,
+    hsla(47, 100%, 50%, 1) 88%
+  );
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.buttonHelp{
+    position: absolute;
+   width: 250px;
+   height: 65px;
+   left: 800px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    hsla(316, 100%, 50%, 1) 33%,
+    hsla(47, 100%, 50%, 1) 88%
+  );
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+  cursor: pointer;
 }
 
 
