@@ -35,8 +35,8 @@ function startUp (props) {
                 <div className='contentUp'>
                     <div className='OroVault'></div>
                     <p className='oroInfo1'>changing the way you gold forever</p>
-                    <button className='giveBtn'>{props.GiveLink}</button>
-                    <button className='learnBtn'>{props.LearnLink}</button>
+                    {/* <button className='giveBtn'>{props.GiveLink}</button> */}
+                    <button className='learnBtn2'>{props.LearnLink}</button>
                     <h3 className='currentFunding'>{props.CurrentFunding}</h3>
                     <div className='loading2'></div>
                     <p className='funded'>{props.funded}</p>
