@@ -1,7 +1,6 @@
 import React from 'react';
 import './startupCard.css';
 import Header from '../header/header';
-import orovault from '../../images/orovault.png';
 
 function startUp (props) {
 

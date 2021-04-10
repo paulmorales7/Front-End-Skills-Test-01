@@ -11,12 +11,12 @@ import bulb from '../../images/bulb.png';
 
 function header() {
     return (
-        <div className='mainDiv'>
-        <div className='rectangle'>
-        <img className='bulb' src={bulb} alt='bulb' />
-        <img className='filler' src={filler} alt='filler' />
-        <img className='smallFiller' src={smallFiller} alt='small-filler' />
-        <img className='world' src={world} alt='world' />
+        <div className='mainDiv2'>
+        <div className='rectangle2'>
+        <img className='bulb2' src={bulb} alt='bulb' />
+        <img className='filler2' src={filler} alt='filler' />
+        <img className='smallFiller2' src={smallFiller} alt='small-filler' />
+        <img className='world2' src={world} alt='world' />
         <p className='rectPSt'>Invest directly <br/> into minority innovations.</p>
         <img className='groupSt' src={group} alt='group' />
         </div>

@@ -1,7 +1,6 @@
 import Nav from './components/nav/nav';
 import Home from './components/home/index';
 import Page from './components/startupPage/page';
-import StartUpCard from './components/startupCard/startupCard';
 import './App.css';
 import React, { Component } from 'react';
 import { BrowserRouter as Router,Route, Switch } from 'react-router-dom';

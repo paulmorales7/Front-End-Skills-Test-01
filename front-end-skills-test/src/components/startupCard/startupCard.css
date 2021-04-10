@@ -1,7 +1,7 @@
 .titleSt {
   position: absolute;
-  bottom: 288px;
-  left: 110px;
+  bottom: 45%;
+  left: 10%;
   color: #3c3b88;
   font-size: 26px;
 }
@@ -13,9 +13,9 @@
   height: 161.9px;
   position: relative;
   z-index: 1;
-  margin-top: 280px;
-  right: 25px;
-  margin-left: 30px;
+  margin-top: 160%;
+  right: 15%;
+  margin-left: 15%;
 }
 
 .contentSt {
@@ -37,12 +37,12 @@
 }
 
 .oroInfo {
-    position: relative;
-    top: -10px;
-    left: 17px;
-    text-align: left;
-    width: 110px;
-    font-size: 9px;
+  position: relative;
+  top: -10px;
+  left: 17px;
+  text-align: left;
+  width: 110px;
+  font-size: 9px;
 }
 
 .mangoswap {
@@ -77,10 +77,10 @@
 }
 
 .giveBtn {
-    position: relative;
-   top: -10px;
-   right: 3px;
-   background: linear-gradient(
+  position: relative;
+  top: -10px;
+  right: 3px;
+  background: linear-gradient(
     90deg,
     hsla(316, 100%, 50%, 1) 33%,
     hsla(47, 100%, 50%, 1) 88%
@@ -88,17 +88,17 @@
   border: none;
   border-radius: 20px;
   color: white;
- width: 60px;
- height: 25px;
+  width: 60px;
+  height: 25px;
 }
 
 .learnBtn {
-    position: relative;
-    top: -10px;
-    background: linear-gradient(161.32deg, #ff00b8 3.86%, #151371 98.64%);
-   border: none;
-   border-radius: 20px;
-   color: white;
+  position: relative;
+  top: -10px;
+  background: linear-gradient(161.32deg, #ff00b8 3.86%, #151371 98.64%);
+  border: none;
+  border-radius: 20px;
+  color: white;
   width: 60px;
   height: 25px;
 }
@@ -114,80 +114,78 @@
 }
 
 .currentFunding {
-    position: relative;
-    font-size: 10px;
-    font-weight: lighter;
-    text-align: right;
-    top: -7px;
-    right: 20px;
+  position: relative;
+  font-size: 10px;
+  font-weight: lighter;
+  text-align: right;
+  top: -7px;
+  right: 20px;
 }
 
 .funded {
-    position: relative;
-    text-align: right;
-    right: 20px;
-    top: -8px;
+  position: relative;
+  text-align: right;
+  right: 20px;
+  top: -8px;
 }
 
 /* upcoming */
 
 .feaSt {
-    position: absolute;
-    bottom: 58px;
-    left: 110px;
-    color: #3c3b88;
-    font-size: 26px;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: #3c3b88;
+  font-size: 26px;
 }
 
 .cardUp {
-    background-image: url("../../images/border.png");
+  background-image: url("../../images/border.png");
   background-size: 150px;
   width: 150px;
   height: 161.9px;
   position: relative;
   z-index: 5;
-  margin-top: 80px;
-  right: 25px;
+  margin-top: 45%;
+  right: 15%;
   margin-left: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10%;
 }
 
 .contentUp {
-    font-size: 8px;
-    color: black;
-    position: relative;
-    z-index: 3;
-    top: 10px;
-    text-align: center;
+  font-size: 8px;
+  color: black;
+  position: relative;
+  top: 6%;
+  text-align: center;
+}
 
-  }
-
-  .learnBtn2 {
-    position: relative;
-    top: -10px;
-    background: linear-gradient(161.32deg, #ff00b8 3.86%, #151371 98.64%);
-   border: none;
-   border-radius: 20px;
-   color: white;
+.learnBtn2 {
+  position: relative;
+  top: -10px;
+  background: linear-gradient(161.32deg, #ff00b8 3.86%, #151371 98.64%);
+  border: none;
+  border-radius: 20px;
+  color: white;
   width: 110px;
   height: 25px;
 }
 
-  .oroInfo1 {
-    position: relative;
-    top: -8px;
-    left: 17px;
-    text-align: left;
-    width: 110px;
-    font-size: 9px;
+.oroInfo1 {
+  position: relative;
+  top: -8px;
+  left: 17px;
+  text-align: left;
+  width: 110px;
+  font-size: 9px;
 }
 
- .buttonAdvise{
-    position: absolute;
-   width: 270px;
-   height: 65px;
-   left: 200px;
-  margin-top: 40px;
+.buttonAdvise {
+  position: absolute;
+  width: 270px;
+  height: 65px;
+  left: 16%;
+  margin-top: 3%;
   border: none;
   border-radius: 10px;
   background: linear-gradient(
@@ -201,12 +199,12 @@
   cursor: pointer;
 }
 
-.buttonJoin{
-    position: absolute;
-   width: 270px;
-   height: 65px;
-   left: 485px;
-  margin-top: 40px;
+.buttonJoin {
+  position: absolute;
+  width: 270px;
+  height: 65px;
+  left: 39%;
+  margin-top: 3%;
   border: none;
   border-radius: 10px;
   background: linear-gradient(
@@ -220,12 +218,12 @@
   cursor: pointer;
 }
 
-.buttonHelp{
-    position: absolute;
-   width: 270px;
-   height: 65px;
-   left: 770px;
-  margin-top: 40px;
+.buttonHelp {
+  position: absolute;
+  width: 270px;
+  height: 65px;
+  left: 62%;
+  margin-top: 3%;
   border: none;
   border-radius: 10px;
   background: linear-gradient(
@@ -238,5 +236,3 @@
   font-weight: lighter;
   cursor: pointer;
 }
-
-

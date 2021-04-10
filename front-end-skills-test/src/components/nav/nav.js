@@ -14,7 +14,7 @@ function nav() {
       <a href="/startups"><li className='service'>Start ups</li></a>
         <li className='events'> Events</li>
         <li className='learn'> Learn</li>
-      <a href='/'><li className='join'>Home</li></a>
+      <a href='/'><li className='home'>Home</li></a>
       </ul>
       <div>
          <img className='wallet' src={connect} alt='connect wallet'/>

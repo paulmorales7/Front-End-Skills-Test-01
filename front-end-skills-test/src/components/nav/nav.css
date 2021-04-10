@@ -1,85 +1,85 @@
 /* nav */
 nav {
-    background-color: white;
-    height: 50px;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 400px;
-  }
-  
-  nav ul li {
-    list-style: none;
-    font-size: 14px;
-    padding: 5px;
-  }
+  background-color: white;
+  height: 5%;
+}
 
-  nav ul a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .service {
-  padding-left: 390px;
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30%;
+  margin-left: 30%;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 14px;
+  padding: 5px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.service {
   width: 56px;
-  }
-  
-  .events {
-    padding-left: 30px;
-    cursor: pointer;
-  }
-  
-  .learn {
-    padding-left: 30px;
-    cursor: pointer;
-  }
-  
-  .join {
-    padding-left: 30px;
-  }
-  
-  .social {
-    width: 150px;
-    position: absolute;
-    top: 25px;
-    left: 260px;
-  }
-  .searchCircle {
-    width: 40px;
-    position: absolute;
-    top: 16px;
-    right: 140px;
-  }
-  
-  .search {
-    position: absolute;
-    width: 20px;
-    right: 149px;
-    top: 22px;
-  }
-  
-  .wallet {
-    position: absolute;
-    top: 15px;
-    left: 520px;
-    padding: 3px 5px 5px 5px;
-    width: 120px;
-  }
-  
-  .logoShape {
-    width: 90px;
-    position: absolute;
-    top: -55px;
-    left: 35px;
-  
-  }
-  
-  .logo{
-    position: absolute;
-    top: -45px;
-    left: 30px;
-    width: 120px;
-    z-index: 2;
-  }
+}
+
+.events {
+  padding-left: 25%;
+  cursor: pointer;
+}
+
+.learn {
+  padding-left: 25%;
+  cursor: pointer;
+}
+
+.home {
+  padding-left: 55%;
+}
+
+.social {
+  width: 150px;
+  position: absolute;
+  top: 4%;
+  left: 22%;
+}
+
+.searchCircle {
+  width: 40px;
+  position: absolute;
+  top: 2.5%;
+  right: 11%;
+}
+
+.search {
+  position: absolute;
+  width: 20px;
+  right: 11.5%;
+  top: 3.5%;
+}
+
+.wallet {
+  position: absolute;
+  top: 2%;
+  left: 43%;
+  padding: 5px;
+  width: 120px;
+}
+
+.logoShape {
+  width: 90px;
+  position: absolute;
+  top: -6%;
+  left: 3%;
+}
+
+.logo {
+  position: absolute;
+  top: -5%;
+  left: 2.5%;
+  width: 120px;
+  z-index: 2;
+}
